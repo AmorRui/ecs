@@ -112,4 +112,5 @@ https://ecs.aliyuncs.com/?Action=ReplaceSystemDisk
 |InvalidSystemDiskSize.MoreThanMaxSize|The specified SystemDisk.Size parameter exceeds the maximum size.|404|指定的参数 `SystemDisk.Size` 不能大于 500 GB。|
 |NoSuchResource|The specified resource is not found.|404|指定资源不存在。|
 |OperationDenied|Internal Error.|500|内部错误，请稍后再试。|
+|InvalidDatadisk.DiskCategoryViolation|The operation is not permitted due to category of the Datadisk.|404| 指定磁盘不支持该实例类型。|
 
